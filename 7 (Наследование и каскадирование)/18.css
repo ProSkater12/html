@@ -1,0 +1,155 @@
+#info-title,
+.profile .button {
+    background: #4DFE15;
+}
+
+.profile div.fact:nth-child(2n) {
+    background: white!important;
+}
+.profile div.fact:nth-child(2n+1) {
+    background: #ECF0F1!important;
+}
+.profile .fact div {
+    color: #02F801;
+}
+
+.photo span {
+    margin: 0;
+    height: 20px;
+    text-align: right;
+}
+
+#miska {
+    margin-right: 50px;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 12px;
+    width: 550px;
+    height: 300px;
+}
+
+.profile {
+    padding: 5px 10px;
+}
+
+.profile img {
+    display: block;
+    padding: 10px;
+    border: 2px solid #34495e;
+    border-radius: 8px;
+}
+
+.profile .photo {
+    float: left;
+    width: 152px;
+}
+
+.profile .info {
+    float: left;
+    width: 368px;
+    margin-left: 10px;
+}
+
+.info h2 {
+    margin: 0!important;
+    padding: 10px!important;
+    font-size: 12px;
+    font-weight: normal;
+    background: #34495e !important;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.fact {
+    padding: 10px;
+    background: white;
+}
+
+.fact:nth-child(odd) {
+    background: #ecf0f1;
+}
+
+.fact:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.fact .title {
+    float: left;
+    width: 120px;
+    text-align: right;
+    color: #7f8c8d!important;
+}
+
+.fact .value {
+    margin-left: 140px;
+    color: #34495e!important;
+}
+
+
+.albums {
+    margin-top: 5px;
+}
+
+.albums img {
+    float: left;
+    margin-right: 5px;
+}
+
+.albums img:last-child {
+    margin-right: 0;
+}
+
+.button {
+    display: block;
+    height: 30px;
+    margin: 5px 0;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.photo span {
+    text-align: center !important;
+    height: 30px !important;
+    margin-bottom: 5px;
+}
+
+.stroke {
+    margin-top: 5px !important;
+    background-color: #0088cc !important;
+}
+
+.feed {
+    background-color: #2ecc71 !important;
+}
+
+.startle {
+    background-color: #e74c3c !important;
+}
+
+.stroke {
+    background-color: #3498DB!important;
+}
+
+.feed {
+    background: #2ecc71;
+}
+
+.startle {
+    background: #e74c3c;
+}
+
+#miska {
+    margin-right: 5px !important;
+}
