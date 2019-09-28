@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Испытание: редактирование профиля</title>
+    </head>
+    <body>
+        <h1>Профиль</h1>
+
+        <form action="/echo" method="post">
+            <label>Ваш пол: <label><input type="radio" value="m">&nbsp;Мужской</input></label> <label><input type="radio"
+                                                                                                       value="w"
+                                                                                                       checked>&nbsp;Женский</input>
+            </label>
+        </label>
+            <br>
+            Месяц и год рождения: <br>
+            <select name="sel" id="sel">
+                <option value="yand">Январь</option>
+            </select>
+            <select name="sel" id="sel2">
+                <option value="yand">1990</option>
+            </select><br>
+            Знакомые технологии: <br>
+            <select name="sel2" id="sel3" multiple>
+                <option value="asd">HTML</option>
+                <option value="asd" selected>CSS</option>
+                <option value="asd">JavaScript</option>
+                <option value="asd">Node.js</option>
+            </select><br>
+            Фото: <input type="file">
+            <input type="submit" value="Сохранить">
+        </form>
+    </body>
+</html>

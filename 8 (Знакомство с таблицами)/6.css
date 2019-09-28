@@ -1,0 +1,19 @@
+table {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+/*1*/
+td {
+    border: 2px solid lightgray;
+}
+
+/*2*/
+td {
+    border-bottom: 2px solid lightgray;
+
+}
+
+/*3*/
+td {
+    border-left: 2px solid lightgray;
+}
