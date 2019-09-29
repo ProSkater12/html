@@ -1,0 +1,91 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 450px;
+    height: 300px;
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+}
+
+.gallery {
+    padding-top: 10px;
+}
+
+.gallery .item {
+    display: inline-block;
+    width: 125px;
+    margin: 0 8.5px; /* -8*/
+    margin-bottom: 10px;
+    font-size: 0;
+}
+.gallery .item:nth-child(1) {  /*отступ первого элемента*/
+    margin-left: 18px;
+}
+
+.gallery .item:nth-child(3) {
+    margin: 0 7.5px;
+}
+
+.gallery .item:nth-child(4) { /*отступ четвёртого элемента*/
+    margin-left: 90px;
+}
+
+.gallery .title {
+    margin-bottom: 5px;
+    line-height: 14px;
+    font-size: 12px;
+}
+
+.gallery .frame {
+    background: #ecf0f1;
+    border: 1px solid black; /*граница внешняя*/
+    height: 105px; /*Увеличивает размер изображения*/
+}
+
+.gallery .image {
+    height: 70px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    margin-top: 10px; /*Отступ, делающий сверху серую рамку*/
+    border-top: 1px solid black; /*Граница сверху*/
+}
+
+.gallery .image-1 {
+    background-color: #2ecc71;
+    background-image: url("/assets/course13/cat_box.png");
+
+}
+
+.gallery .image-2 {
+    background-color: #3498db;
+    background-image: url("/assets/course13/cat_fish.png");
+}
+
+.gallery .image-3 {
+    background-color: #f1c40f;
+    background-image: url("/assets/course13/cat_purr.png");
+}
+
+.gallery .image-4 {
+    background-color: #e67e22;
+    background-image: url("/assets/course13/cat_walk.png");
+}
+
+.gallery .image-5 {
+    background-color: #e74c3c;
+    background-image: url("/assets/course13/cat_drunk.png");
+}
+
+.gallery .date {
+    font-style: italic;
+    font-size: 11px;
+    color: #666666;
+    padding: 5px;/*Внутренние отступы дат*/ /*--4*/
+
+    border-top: 1px solid black; /*граница текстра*/
+
+}
