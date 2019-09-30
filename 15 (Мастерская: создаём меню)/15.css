@@ -1,0 +1,64 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 280px;
+    min-height: 280px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    background: #ecf0f1;
+}
+
+/* Общие настройки меню*/
+.main-menu {
+    margin: 0;
+    width: 200px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+/* Общие настройки меню-конец*/
+
+/* Активное меню*/
+.main-menu li.active > a {
+    display: block;
+    padding: 10px 15px;
+    background-color: #1ABC9C;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid #2C3E50;
+}
+/* Активное меню-конец*/
+
+/* Вложенно меню*/
+.main-menu ul {
+    padding: 10px 15px;
+    background-color: #fff;
+    border-bottom: 2px solid #2C3E50;
+}
+
+.main-menu ul li {
+    padding: 5px 0;
+}
+
+.main-menu ul li a {
+    color: #2980B9;
+}
+/* Вложенно меню - конец*/
+
+/* Меню*/
+.main-menu > li > a {
+  display: block;
+  padding: 10px 15px;
+  background-color: #2980B9;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid #2C3E50;
+}
+/* Меню - конец*/
