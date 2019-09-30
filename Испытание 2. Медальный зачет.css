@@ -1,0 +1,46 @@
+html, body{
+    margin:0;
+    padding:0;
+}
+body{
+    width:450px;
+    font-family:"Arial", sans-serif;
+    font-size:16px;
+}
+h1{
+    padding:0 20px;
+    margin:0;
+    margin-top:20px;
+    font-size:18px;
+    font-weight:normal;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #eeeeee;
+}
+
+td {
+    padding: 10px;
+}
+
+td:first-child {
+    padding-left: 20px;
+    color: #999;
+    font-style: italic;
+}
+
+thead td:nth-child(n+1),
+tbody td:nth-child(n+3) {
+    padding-right: 30px;
+}
+
+thead td:last-child,
+tbody td:last-child {
+    padding-right:20px;
+    font-weight: bold;
+    text-align: right;    
+}

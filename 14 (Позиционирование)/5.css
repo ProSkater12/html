@@ -1,0 +1,26 @@
+body {
+    padding: 20px;
+}
+
+.block {
+    margin-bottom: 20px;
+    padding: 10px;
+    color: white;
+    background: #3A78A1;
+}
+
+.block-relative {
+    /*1*/
+    bottom: 10px;
+    /*2*/
+    bottom: -10px;
+    position: relative;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: white;
+    background: #3A78A1;
+}
+
+.block-shadow {
+    background: #ccc;
+}
