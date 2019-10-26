@@ -1,0 +1,82 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+body{
+    width:500px;
+    height:300px;
+    font-size:16px;
+    font-family:"Tahoma", sans-serif;
+    line-height:20px;
+    color:black;
+    background:#eeeeee;
+}
+
+.slider {
+    padding: 23px 20px;
+    /* Адрес ФОНОВОЙ картинки слайда. Логичней было бы img впихнуть, если это содержимое слайда и оно меняется, но ок. */
+    background: url('https://htmlacademy.ru/assets/ifmo/slide-bg.png') no-repeat;
+    background-position: 280px 82px;
+}
+
+.slider .info {width: 250px;}
+
+.slider h1 {
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.slider .info p {margin-bottom: 25px;}
+
+.slider .info a {
+    display: block;
+    margin-bottom: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 200px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    background: #fb565a;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.slider .paginate {    
+    padding: 2px 25px;
+    /* пиксельхантинг */
+    padding-left: 45px;    
+    text-align: center;
+}    
+
+.slider .pag-slide {
+    position: relative;
+    display: inline-block;    
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    background: #666666;
+    border-radius: 100%;
+}
+
+.slider .pag-slide.current::before {
+    content: '';
+    position: absolute;    
+    display: block;
+    top: 5px;
+    left: 5px;
+    width: 5px;
+    height: 5px;
+    background: white;
+    border-radius: 100%;
+}
+
+/* ↓ можно не вставлять, хотелось оживить ссылку и кнопки слайдера 
+.slider .info a:hover {opacity: 0.85;}*/
+
+.slider .paginate .pag-slide:hover {
+    opacity: 0.85;
+    cursor: pointer;
+    background-color: #2980b9;
+}
